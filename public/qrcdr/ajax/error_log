@@ -1,0 +1,15 @@
+[07-Apr-2021 15:32:48 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/jimitech/app.qrgenerator.discountable.pk/public/qrcdr/ajax/create.php:85
+Stack trace:
+#0 /home/jimitech/app.qrgenerator.discountable.pk/public/qrcdr/ajax/create.php(85): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/jimitech/app.qrgenerator.discountable.pk/public/qrcdr/ajax/create.php on line 85
+[07-Apr-2021 15:33:35 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/jimitech/app.qrgenerator.discountable.pk/public/qrcdr/ajax/create.php:85
+Stack trace:
+#0 /home/jimitech/app.qrgenerator.discountable.pk/public/qrcdr/ajax/create.php(85): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/jimitech/app.qrgenerator.discountable.pk/public/qrcdr/ajax/create.php on line 85
+[07-Apr-2021 15:39:59 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'jimitech_qr_generator'@'localhost' to database 'qr_code' in /home/jimitech/app.qrgenerator.discountable.pk/public/qrcdr/ajax/create.php:85
+Stack trace:
+#0 /home/jimitech/app.qrgenerator.discountable.pk/public/qrcdr/ajax/create.php(85): PDO->__construct('mysql:host=loca...', 'jimitech_qr_gen...', 'qr_generator')
+#1 {main}
+  thrown in /home/jimitech/app.qrgenerator.discountable.pk/public/qrcdr/ajax/create.php on line 85
